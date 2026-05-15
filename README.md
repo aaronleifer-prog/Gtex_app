@@ -8,7 +8,7 @@ This project prompts you for two proteins (gene symbols), pulls GTEx tissue medi
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 gtex_ldh_ratio.py
+python3 gtex_ratio.py
 ```
 
 When prompted, enter your two gene symbols for a `protein1/protein2` ratio.
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python3 gtex_ldh_ratio.py
+python3 gtex_ratio.py
 ```
 
 You will be prompted:
@@ -38,7 +38,7 @@ Outputs:
 ## Optional arguments
 
 ```bash
-python3 gtex_ldh_ratio.py \
+python3 gtex_ratio.py \
   --protein-1 LDHA \
   --protein-2 LDHB \
   --dataset-id gtex_v8 \
