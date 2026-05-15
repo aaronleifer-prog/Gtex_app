@@ -1,0 +1,16 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local tooling/cache
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Generated result files from this script
+*_ratio_by_tissue.csv
+*_ratio_by_tissue.png
